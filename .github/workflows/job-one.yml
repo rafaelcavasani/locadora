@@ -3,7 +3,7 @@ name: Start at commit
 on: push
 
 env:
-  IMAGE_VERSION: locadora:latest
+  IMAGE_VERSION: "locadora:latest"
 
 jobs:
 
