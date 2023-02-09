@@ -17,7 +17,7 @@ jobs:
 
 
   job-two:
-    needs:
+    needs: job-one
     runs-on: ubuntu-latest
     steps:
       - name: "Job two"
