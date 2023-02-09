@@ -12,3 +12,13 @@ jobs:
     steps:
       - name: "Job one"
         run: env
+        env:
+          JOB_ONE_RESULT: Test
+
+
+  job-two:
+    needs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Job two"
+        run: env
