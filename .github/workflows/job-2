@@ -1,0 +1,14 @@
+name: Start at commit
+
+on: push
+
+env:
+  IMAGE_VERSION: "locadora:latest"
+
+jobs:
+
+  job-two:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Job two"
+        run: env
